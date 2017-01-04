@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Android_Anahi</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="imprimir_lineas">Imprimir lineas</string>
+    <string name="guia_ejerc_3">Ingrese cantidad de lineas a imprimir</string>
+    <string name="titulo_ejerc3">Ejercicio 3</string>
+    <string name="prox_ejerc"><![CDATA[Ejercicio 3 >>>]]></string>
+    <string name="previous_page"><![CDATA[<<< Previous page]]></string>
+    <string name="guia_ejerc2">Ingrese numeros y operador</string>
+    <string name="titulo_ejerc2">Ejercicio 2 - Operacion de 2 numeros</string>
+    <string name="enviar">Enviar</string>
+    <string name="guia_ejerc1">Ingrese un numero de mes</string>
+    <string name="ejerc1">Ejercicio 1</string>
+    <string name="calcular">Calcular</string>
+    <string name="warningOperator">Ingrese un operador valido</string>
+</resources>

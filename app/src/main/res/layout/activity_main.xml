@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="2.50"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:text="@string/ejerc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEjercicio1" />
+
+        <TextView
+            android:text="@string/guia_ejerc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNum" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editTextNum" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar"
+            android:id="@+id/buttonEnviar"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textViewMes"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <TextView
+        android:text="@string/titulo_ejerc2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEjercicio2"
+        android:layout_weight="0.25"/>
+    <TextView
+        android:text="@string/guia_ejerc2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guia_2"
+        android:layout_weight="0.25"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/num_1"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:inputType="number"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/operador"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:maxLines="1"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/num_2"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:maxLines="1"/>
+        <TextView
+            android:text="="
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultado"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <TextView
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/warning"
+        android:visibility="gone"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:id="@+id/buttonCalcular" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prox_ejerc"
+        android:id="@+id/nextPage"
+        android:layout_gravity="bottom"
+        />
+
+</LinearLayout>
